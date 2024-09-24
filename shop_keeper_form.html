@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Apply for shopkeeper</title>
+    </head>
+    <body>
+      <div>
+        <h2>Please fill your details</h2>
+        <form id="f1" action="get">
+           
+            <label name="first_name" id="fname" required>First_name</label>
+            <input type="text" id="t1">
+            <label name="last_name" id="lname">Last_name</label>
+            <input type="text" id="t2"><br><br>
+
+            <label name="gender">Gender :</label>
+            <label for="male">male</ladel>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female</ladel>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label name="mobile" required>Mobile number</label>
+            <input type="text" id="t3"><br><br>
+            
+            <label name="adhar" required>Aadhar Number</label>
+            <input type="text" id="t4"><br><br>
+            <label name="address">Address</label>
+            <textarea rows="6" cols="26"></textarea><br><br>
+
+            
+            <label name="education">Educational Qualification</label>
+            <select id="ed" name="qualification">
+                <option value="10th">10th</option>
+                <option value="Inter">Inter</option>
+                <option value="below">Below 10th</option>
+                <option value="Other">Other</option>
+            </select>
+            <label>Graduate</label>
+           <input type="checkbox" id="c1">
+           <label>Post Graduate</label>
+           <input type="checkbox" id="c2"><br><br>
+      
+           Job Experience:
+           <select id="exp">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5+</option>                             
+           </select>
+           Company Name:
+           <input type="text" placeholder="previous company"><br><br>
+      
+           Select which role you want to apply?
+           <select id="role" required>
+              <option>Manager</option>
+              <option>Store In charge</option>
+              <option>Billing Desk</option>
+              <option>Store Keeper</option>
+              <option>Cleaning</option>
+              <option>Safty</option>
+           </select><br><br>
+
+           <label name="upload">Upload photo</label>
+           <input type="file" id="file1" name="file1"><br><br>
+
+           <input type="submit">
+           <input type="reset">
+
+        </form>
+      </div>  
+    </body>
+</html>
